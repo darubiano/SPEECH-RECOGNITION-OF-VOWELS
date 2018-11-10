@@ -1,5 +1,3 @@
-# SPEECH-RECOGNITION-OF-VOWELS
-Tesis: Automatic method for voice recognition for the classification of vowels in the colombian sign language
 <h1 align="center"><B> SPEECH-RECOGNITION-OF-VOWELS</B></h1>
 <p align="justify">
 Tesis: Automatic method for voice recognition for the classification of vowels in the colombian sign language
