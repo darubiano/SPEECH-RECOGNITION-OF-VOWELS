@@ -1,0 +1,1443 @@
+MFCCs 30% Test 70% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99       117
+          e       0.86      0.97      0.91        90
+          i       0.99      0.86      0.92        99
+          o       0.89      0.89      0.89        98
+          u       0.87      0.89      0.88        99
+
+avg / total       0.92      0.92      0.92       503
+
+
+MFCCs 30% Test 70% Train 
+{'C': 1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.97      0.99      0.98       117
+          e       0.86      0.96      0.91        90
+          i       0.97      0.85      0.90        99
+          o       0.91      0.90      0.90        98
+          u       0.91      0.92      0.91        99
+
+avg / total       0.93      0.92      0.92       503
+
+
+LPCs 30% Test 70% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.87      0.94      0.91       117
+          e       0.75      0.80      0.77        90
+          i       0.85      0.77      0.81        99
+          o       0.72      0.79      0.75        98
+          u       0.80      0.69      0.74        99
+
+avg / total       0.80      0.80      0.80       503
+
+
+TOTAL 30% Test 70% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.98      1.00      0.99       117
+          e       0.88      0.96      0.91        90
+          i       0.98      0.87      0.92        99
+          o       0.91      0.87      0.89        98
+          u       0.87      0.92      0.89        99
+
+avg / total       0.93      0.92      0.92       503
+
+
+MFCCs1 30% Test 70% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.50      0.42      0.46        33
+          e       0.29      0.54      0.37        26
+          i       0.42      0.42      0.42        38
+          o       0.34      0.25      0.29        40
+          u       0.48      0.39      0.43        36
+
+avg / total       0.41      0.39      0.39       173
+
+
+MFCCs2 30% Test 70% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.42      0.47      0.44        30
+          e       0.44      0.42      0.43        36
+          i       0.58      0.62      0.60        29
+          o       0.51      0.68      0.58        31
+          u       0.52      0.34      0.41        38
+
+avg / total       0.49      0.49      0.49       164
+
+
+MFCCs3 30% Test 70% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.73      0.94      0.82        34
+          e       0.70      0.64      0.67        36
+          i       0.68      0.68      0.68        31
+          o       0.61      0.54      0.58        35
+          u       0.58      0.52      0.55        29
+
+avg / total       0.66      0.67      0.66       165
+
+
+LPCs1 30% Test 70% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.64      0.76      0.69        33
+          e       0.53      0.70      0.60        27
+          i       0.67      0.54      0.60        37
+          o       0.55      0.47      0.51        38
+          u       0.64      0.59      0.61        39
+
+avg / total       0.61      0.60      0.60       174
+
+
+LPCs2 30% Test 70% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.52      0.69      0.59        32
+          e       0.71      0.73      0.72        37
+          i       0.82      0.55      0.65        33
+          o       0.50      0.33      0.40        33
+          u       0.46      0.63      0.54        30
+
+avg / total       0.61      0.59      0.58       165
+
+
+LPCs3 30% Test 70% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.53      0.78      0.63        32
+          e       0.76      0.70      0.73        37
+          i       0.70      0.70      0.70        27
+          o       0.48      0.39      0.43        36
+          u       0.57      0.48      0.52        33
+
+avg / total       0.61      0.61      0.60       165
+
+
+TOTAL1 30% Test 70% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.50      0.52      0.51        33
+          e       0.27      0.46      0.34        26
+          i       0.50      0.42      0.46        38
+          o       0.34      0.28      0.31        40
+          u       0.52      0.44      0.48        36
+
+avg / total       0.43      0.42      0.42       173
+
+
+TOTAL2 30% Test 70% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.48      0.50      0.49        30
+          e       0.43      0.44      0.44        36
+          i       0.62      0.62      0.62        29
+          o       0.50      0.68      0.58        31
+          u       0.48      0.32      0.38        38
+
+avg / total       0.50      0.50      0.49       164
+
+
+TOTAL3 30% Test 70% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.73      0.94      0.82        34
+          e       0.70      0.64      0.67        36
+          i       0.68      0.68      0.68        31
+          o       0.61      0.54      0.58        35
+          u       0.58      0.52      0.55        29
+
+avg / total       0.66      0.67      0.66       165
+
+
+MFCCs 30% Test 70% Train 
+{'C': 0.01, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.97      1.00      0.99       117
+          e       0.85      0.96      0.90        90
+          i       0.96      0.83      0.89        99
+          o       0.91      0.91      0.91        98
+          u       0.91      0.91      0.91        99
+
+avg / total       0.92      0.92      0.92       503
+
+
+LPCs 30% Test 70% Train 
+{'C': 0.01, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.46      0.44      0.45       117
+          e       0.36      0.32      0.34        90
+          i       0.53      0.46      0.49        99
+          o       0.40      0.38      0.39        98
+          u       0.51      0.67      0.58        99
+
+avg / total       0.45      0.46      0.45       503
+
+
+TOTAL 30% Test 70% Train 
+{'C': 0.001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.97      0.99      0.98       117
+          e       0.85      0.94      0.89        90
+          i       0.97      0.85      0.90        99
+          o       0.93      0.89      0.91        98
+          u       0.90      0.93      0.92        99
+
+avg / total       0.92      0.92      0.92       503
+
+
+MFCCs1 30% Test 70% Train 
+{'C': 0.001, 'gamma': 0.01, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.78      0.85      0.81        33
+          e       0.41      0.69      0.51        26
+          i       0.58      0.55      0.57        38
+          o       0.70      0.57      0.63        40
+          u       0.71      0.47      0.57        36
+
+avg / total       0.65      0.62      0.62       173
+
+
+MFCCs2 30% Test 70% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.60      0.87      0.71        30
+          e       0.74      0.56      0.63        36
+          i       0.72      0.79      0.75        29
+          o       0.55      0.74      0.63        31
+          u       0.50      0.26      0.34        38
+
+avg / total       0.62      0.62      0.60       164
+
+
+MFCCs3 30% Test 70% Train 
+{'C': 0.0001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.72      0.97      0.82        34
+          e       0.79      0.75      0.77        36
+          i       0.76      0.71      0.73        31
+          o       0.62      0.46      0.52        35
+          u       0.57      0.59      0.58        29
+
+avg / total       0.69      0.70      0.69       165
+
+
+LPCs1 30% Test 70% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.42      0.39      0.41        33
+          e       0.26      0.37      0.30        27
+          i       0.42      0.30      0.35        37
+          o       0.30      0.29      0.29        38
+          u       0.61      0.64      0.62        39
+
+avg / total       0.41      0.40      0.40       174
+
+
+LPCs2 30% Test 70% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.35      0.38      0.36        32
+          e       0.37      0.35      0.36        37
+          i       0.42      0.33      0.37        33
+          o       0.25      0.21      0.23        33
+          u       0.43      0.60      0.50        30
+
+avg / total       0.36      0.37      0.36       165
+
+
+LPCs3 30% Test 70% Train 
+{'C': 0.0001, 'gamma': 10, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.37      0.53      0.44        32
+          e       0.36      0.32      0.34        37
+          i       0.31      0.33      0.32        27
+          o       0.33      0.25      0.29        36
+          u       0.60      0.55      0.57        33
+
+avg / total       0.40      0.39      0.39       165
+
+
+TOTAL1 30% Test 70% Train 
+{'C': 0.001, 'gamma': 0.01, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.80      0.85      0.82        33
+          e       0.48      0.77      0.59        26
+          i       0.69      0.58      0.63        38
+          o       0.65      0.55      0.59        40
+          u       0.70      0.58      0.64        36
+
+avg / total       0.67      0.65      0.65       173
+
+
+TOTAL2 30% Test 70% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.60      0.87      0.71        30
+          e       0.69      0.50      0.58        36
+          i       0.75      0.83      0.79        29
+          o       0.52      0.74      0.61        31
+          u       0.58      0.29      0.39        38
+
+avg / total       0.63      0.62      0.60       164
+
+
+TOTAL3 30% Test 70% Train 
+{'C': 0.0001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.75      0.97      0.85        34
+          e       0.79      0.72      0.75        36
+          i       0.73      0.71      0.72        31
+          o       0.63      0.49      0.55        35
+          u       0.58      0.62      0.60        29
+
+avg / total       0.70      0.70      0.70       165
+
+
+MFCCs 25% Test 75% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.98      1.00      0.99       104
+          e       0.90      0.96      0.93        75
+          i       0.97      0.89      0.93        76
+          o       0.92      0.89      0.91        76
+          u       0.92      0.93      0.93        88
+
+avg / total       0.94      0.94      0.94       419
+
+
+MFCCs 25% Test 75% Train 
+{'C': 1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.97      1.00      0.99       104
+          e       0.88      0.96      0.92        75
+          i       0.97      0.87      0.92        76
+          o       0.94      0.89      0.92        76
+          u       0.93      0.95      0.94        88
+
+avg / total       0.94      0.94      0.94       419
+
+
+LPCs 25% Test 75% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.91      0.95      0.93       104
+          e       0.79      0.81      0.80        75
+          i       0.83      0.78      0.80        76
+          o       0.73      0.74      0.73        76
+          u       0.80      0.77      0.79        88
+
+avg / total       0.82      0.82      0.82       419
+
+
+TOTAL 25% Test 75% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      1.00       104
+          e       0.88      0.95      0.91        75
+          i       0.97      0.87      0.92        76
+          o       0.94      0.87      0.90        76
+          u       0.88      0.95      0.92        88
+
+avg / total       0.94      0.93      0.93       419
+
+
+MFCCs1 25% Test 75% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.59      0.59      0.59        27
+          e       0.28      0.55      0.37        20
+          i       0.36      0.35      0.36        34
+          o       0.43      0.26      0.32        35
+          u       0.50      0.43      0.46        28
+
+avg / total       0.44      0.42      0.42       144
+
+
+MFCCs2 25% Test 75% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.46      0.62      0.53        21
+          e       0.56      0.48      0.52        31
+          i       0.59      0.59      0.59        27
+          o       0.49      0.61      0.54        28
+          u       0.45      0.30      0.36        30
+
+avg / total       0.51      0.51      0.50       137
+
+
+MFCCs3 25% Test 75% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.77      0.92      0.84        25
+          e       0.69      0.71      0.70        31
+          i       0.70      0.68      0.69        28
+          o       0.67      0.67      0.67        30
+          u       0.63      0.50      0.56        24
+
+avg / total       0.69      0.70      0.69       138
+
+
+LPCs1 25% Test 75% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.78      0.78      0.78        27
+          e       0.61      0.77      0.68        22
+          i       0.75      0.70      0.72        30
+          o       0.59      0.61      0.60        33
+          u       0.64      0.55      0.59        33
+
+avg / total       0.67      0.67      0.67       145
+
+
+LPCs2 25% Test 75% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.47      0.70      0.56        23
+          e       0.62      0.58      0.60        31
+          i       0.75      0.60      0.67        30
+          o       0.55      0.39      0.46        28
+          u       0.43      0.52      0.47        25
+
+avg / total       0.58      0.55      0.56       137
+
+
+LPCs3 25% Test 75% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.53      0.79      0.63        24
+          e       0.84      0.66      0.74        32
+          i       0.67      0.77      0.71        26
+          o       0.60      0.40      0.48        30
+          u       0.59      0.62      0.60        26
+
+avg / total       0.65      0.64      0.63       138
+
+
+TOTAL1 25% Test 75% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.45      0.56      0.50        27
+          e       0.31      0.50      0.38        20
+          i       0.58      0.41      0.48        34
+          o       0.35      0.26      0.30        35
+          u       0.59      0.61      0.60        28
+
+avg / total       0.46      0.45      0.45       144
+
+
+TOTAL2 25% Test 75% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.46      0.62      0.53        21
+          e       0.46      0.42      0.44        31
+          i       0.60      0.56      0.58        27
+          o       0.48      0.57      0.52        28
+          u       0.43      0.33      0.38        30
+
+avg / total       0.49      0.49      0.48       137
+
+
+TOTAL3 25% Test 75% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.79      0.92      0.85        25
+          e       0.73      0.71      0.72        31
+          i       0.71      0.71      0.71        28
+          o       0.65      0.67      0.66        30
+          u       0.65      0.54      0.59        24
+
+avg / total       0.71      0.71      0.71       138
+
+
+MFCCs 25% Test 75% Train 
+{'C': 1000, 'gamma': 0.01, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.98      0.97      0.98       104
+          e       0.92      0.95      0.93        75
+          i       0.95      0.93      0.94        76
+          o       0.91      0.91      0.91        76
+          u       0.92      0.92      0.92        88
+
+avg / total       0.94      0.94      0.94       419
+
+
+LPCs 25% Test 75% Train 
+{'C': 0.0001, 'gamma': 10, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.50      0.43      0.46       104
+          e       0.40      0.45      0.42        75
+          i       0.60      0.58      0.59        76
+          o       0.40      0.38      0.39        76
+          u       0.58      0.64      0.61        88
+
+avg / total       0.50      0.50      0.50       419
+
+
+TOTAL 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.97      0.97      0.97       104
+          e       0.83      0.95      0.88        75
+          i       0.95      0.83      0.89        76
+          o       0.92      0.91      0.91        76
+          u       0.94      0.94      0.94        88
+
+avg / total       0.93      0.92      0.92       419
+
+
+MFCCs1 25% Test 75% Train 
+{'C': 0.0001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.76      0.81      0.79        27
+          e       0.48      0.70      0.57        20
+          i       0.56      0.53      0.55        34
+          o       0.66      0.54      0.59        35
+          u       0.60      0.54      0.57        28
+
+avg / total       0.62      0.61      0.61       144
+
+
+MFCCs2 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.54      0.90      0.68        21
+          e       0.75      0.58      0.65        31
+          i       0.77      0.74      0.75        27
+          o       0.50      0.61      0.55        28
+          u       0.39      0.23      0.29        30
+
+avg / total       0.59      0.59      0.58       137
+
+
+MFCCs3 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.73      0.88      0.80        25
+          e       0.74      0.65      0.69        31
+          i       0.67      0.79      0.72        28
+          o       0.65      0.43      0.52        30
+          u       0.57      0.67      0.62        24
+
+avg / total       0.68      0.67      0.67       138
+
+
+LPCs1 25% Test 75% Train 
+{'C': 0.0001, 'gamma': 10, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.44      0.41      0.42        27
+          e       0.23      0.27      0.25        22
+          i       0.34      0.37      0.35        30
+          o       0.32      0.30      0.31        33
+          u       0.52      0.48      0.50        33
+
+avg / total       0.38      0.37      0.38       145
+
+
+LPCs2 25% Test 75% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.29      0.30      0.30        23
+          e       0.31      0.32      0.32        31
+          i       0.40      0.27      0.32        30
+          o       0.32      0.29      0.30        28
+          u       0.39      0.56      0.46        25
+
+avg / total       0.34      0.34      0.34       137
+
+
+LPCs3 25% Test 75% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.37      0.58      0.45        24
+          e       0.43      0.28      0.34        32
+          i       0.43      0.38      0.41        26
+          o       0.36      0.27      0.31        30
+          u       0.44      0.58      0.50        26
+
+avg / total       0.41      0.41      0.40       138
+
+
+TOTAL1 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.01, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.76      0.81      0.79        27
+          e       0.48      0.80      0.60        20
+          i       0.76      0.65      0.70        34
+          o       0.69      0.51      0.59        35
+          u       0.74      0.71      0.73        28
+
+avg / total       0.70      0.68      0.68       144
+
+
+TOTAL2 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.53      0.90      0.67        21
+          e       0.65      0.48      0.56        31
+          i       0.76      0.70      0.73        27
+          o       0.51      0.64      0.57        28
+          u       0.39      0.23      0.29        30
+
+avg / total       0.57      0.57      0.55       137
+
+
+TOTAL3 25% Test 75% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.92      0.82        25
+          e       0.79      0.61      0.69        31
+          i       0.67      0.79      0.72        28
+          o       0.60      0.40      0.48        30
+          u       0.53      0.67      0.59        24
+
+avg / total       0.67      0.67      0.66       138
+
+
+MFCCs 20% Test 80% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      0.99        79
+          e       0.92      0.97      0.94        62
+          i       0.98      0.92      0.95        60
+          o       0.93      0.90      0.92        60
+          u       0.92      0.95      0.93        74
+
+avg / total       0.95      0.95      0.95       335
+
+
+MFCCs 20% Test 80% Train 
+{'C': 1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      0.99        79
+          e       0.89      0.90      0.90        62
+          i       0.91      0.88      0.90        60
+          o       0.93      0.92      0.92        60
+          u       0.93      0.95      0.94        74
+
+avg / total       0.93      0.93      0.93       335
+
+
+LPCs 20% Test 80% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.89      0.95      0.92        79
+          e       0.79      0.73      0.76        62
+          i       0.77      0.80      0.79        60
+          o       0.71      0.73      0.72        60
+          u       0.80      0.76      0.78        74
+
+avg / total       0.80      0.80      0.80       335
+
+
+TOTAL 20% Test 80% Train 
+{'C': 1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      0.99        79
+          e       0.90      0.89      0.89        62
+          i       0.89      0.90      0.89        60
+          o       0.92      0.93      0.93        60
+          u       0.96      0.93      0.95        74
+
+avg / total       0.93      0.93      0.93       335
+
+
+MFCCs1 20% Test 80% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.52      0.54      0.53        24
+          e       0.33      0.67      0.44        15
+          i       0.44      0.38      0.41        29
+          o       0.42      0.29      0.34        28
+          u       0.41      0.35      0.38        20
+
+avg / total       0.43      0.42      0.42       116
+
+
+MFCCs2 20% Test 80% Train 
+{'C': 1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.30      0.50      0.37        16
+          e       0.39      0.27      0.32        26
+          i       0.52      0.55      0.53        22
+          o       0.50      0.43      0.47        23
+          u       0.41      0.39      0.40        23
+
+avg / total       0.43      0.42      0.42       110
+
+
+MFCCs3 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.89      0.81        19
+          e       0.72      0.72      0.72        25
+          i       0.72      0.72      0.72        25
+          o       0.67      0.64      0.65        22
+          u       0.69      0.58      0.63        19
+
+avg / total       0.71      0.71      0.71       110
+
+
+LPCs1 20% Test 80% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.77      0.71      0.74        24
+          e       0.57      0.87      0.68        15
+          i       0.83      0.62      0.71        24
+          o       0.52      0.62      0.57        24
+          u       0.62      0.52      0.57        29
+
+avg / total       0.67      0.65      0.65       116
+
+
+LPCs2 20% Test 80% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.48      0.67      0.56        18
+          e       0.68      0.63      0.65        27
+          i       0.86      0.79      0.83        24
+          o       0.59      0.48      0.53        21
+          u       0.43      0.45      0.44        20
+
+avg / total       0.62      0.61      0.61       110
+
+
+LPCs3 20% Test 80% Train 
+{'C': 10000, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.50      0.82      0.62        17
+          e       0.73      0.62      0.67        26
+          i       0.76      0.70      0.73        23
+          o       0.72      0.54      0.62        24
+          u       0.52      0.55      0.54        20
+
+avg / total       0.66      0.64      0.64       110
+
+
+TOTAL1 20% Test 80% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.41      0.46      0.43        24
+          e       0.27      0.40      0.32        15
+          i       0.47      0.31      0.38        29
+          o       0.34      0.36      0.35        28
+          u       0.58      0.55      0.56        20
+
+avg / total       0.42      0.41      0.41       116
+
+
+TOTAL2 20% Test 80% Train 
+{'C': 0.1, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.40      0.62      0.49        16
+          e       0.37      0.27      0.31        26
+          i       0.57      0.55      0.56        22
+          o       0.50      0.48      0.49        23
+          u       0.43      0.43      0.43        23
+
+avg / total       0.46      0.45      0.45       110
+
+
+TOTAL3 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.89      0.81        19
+          e       0.72      0.72      0.72        25
+          i       0.72      0.72      0.72        25
+          o       0.64      0.64      0.64        22
+          u       0.67      0.53      0.59        19
+
+avg / total       0.70      0.70      0.70       110
+
+
+MFCCs 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99        79
+          e       0.89      0.94      0.91        62
+          i       0.91      0.88      0.90        60
+          o       0.89      0.93      0.91        60
+          u       0.96      0.91      0.93        74
+
+avg / total       0.93      0.93      0.93       335
+
+
+LPCs 20% Test 80% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.49      0.48      0.49        79
+          e       0.42      0.40      0.41        62
+          i       0.58      0.52      0.55        60
+          o       0.38      0.35      0.37        60
+          u       0.57      0.69      0.62        74
+
+avg / total       0.49      0.50      0.49       335
+
+
+TOTAL 20% Test 80% Train 
+{'C': 0.001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99        79
+          e       0.85      0.92      0.88        62
+          i       0.91      0.85      0.88        60
+          o       0.93      0.93      0.93        60
+          u       0.96      0.95      0.95        74
+
+avg / total       0.93      0.93      0.93       335
+
+
+MFCCs1 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.81      0.88      0.84        24
+          e       0.48      0.73      0.58        15
+          i       0.68      0.59      0.63        29
+          o       0.71      0.61      0.65        28
+          u       0.67      0.60      0.63        20
+
+avg / total       0.68      0.67      0.67       116
+
+
+MFCCs2 20% Test 80% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.56      0.94      0.70        16
+          e       0.74      0.54      0.62        26
+          i       0.81      0.77      0.79        22
+          o       0.52      0.61      0.56        23
+          u       0.44      0.30      0.36        23
+
+avg / total       0.62      0.61      0.60       110
+
+
+MFCCs3 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.75      0.95      0.84        19
+          e       0.74      0.80      0.77        25
+          i       0.77      0.68      0.72        25
+          o       0.60      0.55      0.57        22
+          u       0.59      0.53      0.56        19
+
+avg / total       0.70      0.70      0.69       110
+
+
+LPCs1 20% Test 80% Train 
+{'C': 0.01, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.52      0.50      0.51        24
+          e       0.27      0.47      0.34        15
+          i       0.36      0.38      0.37        24
+          o       0.25      0.21      0.23        24
+          u       0.55      0.41      0.47        29
+
+avg / total       0.41      0.39      0.39       116
+
+
+LPCs2 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 10, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.26      0.33      0.29        18
+          e       0.36      0.37      0.36        27
+          i       0.44      0.29      0.35        24
+          o       0.26      0.24      0.25        21
+          u       0.50      0.60      0.55        20
+
+avg / total       0.37      0.36      0.36       110
+
+
+LPCs3 20% Test 80% Train 
+{'C': 0.001, 'gamma': 1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.40      0.59      0.48        17
+          e       0.38      0.31      0.34        26
+          i       0.38      0.35      0.36        23
+          o       0.39      0.29      0.33        24
+          u       0.40      0.50      0.44        20
+
+avg / total       0.39      0.39      0.38       110
+
+
+TOTAL1 20% Test 80% Train 
+{'C': 0.0001, 'gamma': 0.1, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.78      0.88      0.82        24
+          e       0.40      0.53      0.46        15
+          i       0.70      0.66      0.68        29
+          o       0.65      0.54      0.59        28
+          u       0.68      0.65      0.67        20
+
+avg / total       0.66      0.66      0.66       116
+
+
+TOTAL2 20% Test 80% Train 
+{'C': 0.01, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.58      0.88      0.70        16
+          e       0.70      0.54      0.61        26
+          i       0.74      0.77      0.76        22
+          o       0.52      0.52      0.52        23
+          u       0.50      0.43      0.47        23
+
+avg / total       0.61      0.61      0.60       110
+
+
+TOTAL3 20% Test 80% Train 
+{'C': 0.001, 'gamma': 0.001, 'kernel': 'poly'}
+             precision    recall  f1-score   support
+
+          a       0.75      0.95      0.84        19
+          e       0.75      0.72      0.73        25
+          i       0.72      0.72      0.72        25
+          o       0.60      0.41      0.49        22
+          u       0.55      0.63      0.59        19
+
+avg / total       0.68      0.68      0.67       110
+
+
+MFCCs 30% Test 70% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99       117
+          e       0.86      0.97      0.91        90
+          i       0.99      0.86      0.92        99
+          o       0.89      0.89      0.89        98
+          u       0.87      0.89      0.88        99
+
+avg / total       0.92      0.92      0.92       503
+
+
+MFCCs1 30% Test 70% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.85      0.88      0.87        33
+          e       0.47      0.62      0.53        26
+          i       0.57      0.66      0.61        38
+          o       0.70      0.57      0.63        40
+          u       0.68      0.53      0.59        36
+
+avg / total       0.66      0.65      0.65       173
+
+
+MFCCs2 30% Test 70% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.83      0.78        30
+          e       0.81      0.58      0.68        36
+          i       0.73      0.83      0.77        29
+          o       0.45      0.61      0.52        31
+          u       0.45      0.34      0.39        38
+
+avg / total       0.63      0.62      0.62       164
+
+
+MFCCs3 30% Test 70% Train 
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.75      0.88      0.81        34
+          e       0.60      0.58      0.59        36
+          i       0.65      0.71      0.68        31
+          o       0.60      0.51      0.55        35
+          u       0.62      0.55      0.58        29
+
+avg / total       0.64      0.65      0.64       165
+
+
+LPCs 30% Test 70% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.55      0.57      0.56       117
+          e       0.46      0.49      0.47        90
+          i       0.69      0.60      0.64        99
+          o       0.45      0.38      0.41        98
+          u       0.52      0.62      0.56        99
+
+avg / total       0.54      0.53      0.53       503
+
+
+LPCs1 30% Test 70% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.47      0.42      0.44        33
+          e       0.32      0.48      0.38        27
+          i       0.44      0.43      0.44        37
+          o       0.38      0.34      0.36        38
+          u       0.58      0.49      0.53        39
+
+avg / total       0.44      0.43      0.43       174
+
+
+LPCs2 30% Test 70% Train 
+{'C': 10000, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.39      0.47      0.43        32
+          e       0.49      0.49      0.49        37
+          i       0.46      0.36      0.41        33
+          o       0.16      0.12      0.14        33
+          u       0.36      0.47      0.41        30
+
+avg / total       0.38      0.38      0.37       165
+
+
+LPCs3 30% Test 70% Train 
+{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.44      0.56      0.49        32
+          e       0.30      0.24      0.27        37
+          i       0.32      0.41      0.36        27
+          o       0.33      0.31      0.32        36
+          u       0.48      0.39      0.43        33
+
+avg / total       0.37      0.38      0.37       165
+
+
+TOTAL 30% Test 70% Train 
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99       117
+          e       0.86      0.93      0.89        90
+          i       0.94      0.86      0.90        99
+          o       0.95      0.90      0.92        98
+          u       0.90      0.95      0.92        99
+
+avg / total       0.93      0.93      0.93       503
+
+
+TOTAL1 30% Test 70% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.83      0.88      0.85        33
+          e       0.47      0.58      0.52        26
+          i       0.52      0.58      0.55        38
+          o       0.64      0.57      0.61        40
+          u       0.64      0.50      0.56        36
+
+avg / total       0.63      0.62      0.62       173
+
+
+TOTAL2 30% Test 70% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.87      0.80        30
+          e       0.78      0.58      0.67        36
+          i       0.76      0.86      0.81        29
+          o       0.46      0.61      0.53        31
+          u       0.43      0.32      0.36        38
+
+avg / total       0.63      0.63      0.62       164
+
+
+TOTAL3 30% Test 70% Train 
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.76      0.91      0.83        34
+          e       0.63      0.61      0.62        36
+          i       0.65      0.71      0.68        31
+          o       0.62      0.51      0.56        35
+          u       0.62      0.55      0.58        29
+
+avg / total       0.65      0.66      0.65       165
+
+
+MFCCs 25% Test 75% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.98      1.00      0.99       104
+          e       0.90      0.96      0.93        75
+          i       0.97      0.89      0.93        76
+          o       0.92      0.89      0.91        76
+          u       0.92      0.93      0.93        88
+
+avg / total       0.94      0.94      0.94       419
+
+
+MFCCs1 25% Test 75% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.85      0.79        27
+          e       0.48      0.60      0.53        20
+          i       0.56      0.59      0.57        34
+          o       0.73      0.54      0.62        35
+          u       0.69      0.64      0.67        28
+
+avg / total       0.65      0.64      0.64       144
+
+
+MFCCs2 25% Test 75% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.66      0.90      0.76        21
+          e       0.71      0.55      0.62        31
+          i       0.72      0.78      0.75        27
+          o       0.49      0.61      0.54        28
+          u       0.35      0.23      0.28        30
+
+avg / total       0.58      0.59      0.58       137
+
+
+MFCCs3 25% Test 75% Train 
+{'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.73      0.88      0.80        25
+          e       0.61      0.61      0.61        31
+          i       0.65      0.71      0.68        28
+          o       0.64      0.53      0.58        30
+          u       0.62      0.54      0.58        24
+
+avg / total       0.65      0.65      0.65       138
+
+
+LPCs 25% Test 75% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.60      0.53      0.56       104
+          e       0.44      0.49      0.47        75
+          i       0.63      0.64      0.64        76
+          o       0.43      0.41      0.42        76
+          u       0.57      0.61      0.59        88
+
+avg / total       0.54      0.54      0.54       419
+
+
+LPCs1 25% Test 75% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.47      0.26      0.33        27
+          e       0.29      0.50      0.37        22
+          i       0.32      0.40      0.35        30
+          o       0.37      0.30      0.33        33
+          u       0.48      0.39      0.43        33
+
+avg / total       0.39      0.37      0.37       145
+
+
+LPCs2 25% Test 75% Train 
+{'C': 10000, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.30      0.35      0.32        23
+          e       0.44      0.48      0.46        31
+          i       0.50      0.27      0.35        30
+          o       0.27      0.25      0.26        28
+          u       0.35      0.48      0.41        25
+
+avg / total       0.38      0.36      0.36       137
+
+
+LPCs3 25% Test 75% Train 
+{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.40      0.50      0.44        24
+          e       0.37      0.34      0.35        32
+          i       0.30      0.31      0.30        26
+          o       0.39      0.30      0.34        30
+          u       0.46      0.50      0.48        26
+
+avg / total       0.38      0.38      0.38       138
+
+
+TOTAL 25% Test 75% Train 
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      0.99      0.99       104
+          e       0.87      0.95      0.90        75
+          i       0.94      0.87      0.90        76
+          o       0.96      0.89      0.93        76
+          u       0.92      0.97      0.94        88
+
+avg / total       0.94      0.94      0.94       419
+
+
+TOTAL1 25% Test 75% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.82      0.85      0.84        27
+          e       0.50      0.65      0.57        20
+          i       0.64      0.62      0.63        34
+          o       0.73      0.54      0.62        35
+          u       0.61      0.68      0.64        28
+
+avg / total       0.67      0.66      0.66       144
+
+
+TOTAL2 25% Test 75% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.63      0.90      0.75        21
+          e       0.77      0.55      0.64        31
+          i       0.76      0.81      0.79        27
+          o       0.49      0.61      0.54        28
+          u       0.38      0.27      0.31        30
+
+avg / total       0.60      0.61      0.59       137
+
+
+TOTAL3 25% Test 75% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.76      0.88      0.81        25
+          e       0.76      0.61      0.68        31
+          i       0.67      0.86      0.75        28
+          o       0.56      0.47      0.51        30
+          u       0.52      0.50      0.51        24
+
+avg / total       0.66      0.66      0.65       138
+
+
+MFCCs 20% Test 80% Train 
+{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      0.99        79
+          e       0.92      0.97      0.94        62
+          i       0.98      0.92      0.95        60
+          o       0.93      0.90      0.92        60
+          u       0.92      0.95      0.93        74
+
+avg / total       0.95      0.95      0.95       335
+
+
+MFCCs1 20% Test 80% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.85      0.92      0.88        24
+          e       0.50      0.60      0.55        15
+          i       0.62      0.69      0.66        29
+          o       0.74      0.50      0.60        28
+          u       0.57      0.60      0.59        20
+
+avg / total       0.67      0.66      0.66       116
+
+
+MFCCs2 20% Test 80% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.62      0.94      0.75        16
+          e       0.78      0.54      0.64        26
+          i       0.82      0.82      0.82        22
+          o       0.52      0.61      0.56        23
+          u       0.42      0.35      0.38        23
+
+avg / total       0.63      0.63      0.62       110
+
+
+MFCCs3 20% Test 80% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.77      0.89      0.83        19
+          e       0.71      0.60      0.65        25
+          i       0.69      0.88      0.77        25
+          o       0.50      0.32      0.39        22
+          u       0.48      0.53      0.50        19
+
+avg / total       0.63      0.65      0.63       110
+
+
+LPCs 20% Test 80% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.59      0.58      0.59        79
+          e       0.48      0.44      0.46        62
+          i       0.64      0.68      0.66        60
+          o       0.42      0.43      0.43        60
+          u       0.61      0.62      0.62        74
+
+avg / total       0.55      0.56      0.55       335
+
+
+LPCs1 20% Test 80% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.67      0.42      0.51        24
+          e       0.29      0.60      0.39        15
+          i       0.44      0.46      0.45        24
+          o       0.29      0.25      0.27        24
+          u       0.50      0.41      0.45        29
+
+avg / total       0.45      0.41      0.42       116
+
+
+LPCs2 20% Test 80% Train 
+{'C': 10000, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.25      0.28      0.26        18
+          e       0.45      0.52      0.48        27
+          i       0.54      0.29      0.38        24
+          o       0.28      0.33      0.30        21
+          u       0.48      0.50      0.49        20
+
+avg / total       0.41      0.39      0.39       110
+
+
+LPCs3 20% Test 80% Train 
+{'C': 10000, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.48      0.59      0.53        17
+          e       0.37      0.27      0.31        26
+          i       0.48      0.57      0.52        23
+          o       0.42      0.33      0.37        24
+          u       0.46      0.55      0.50        20
+
+avg / total       0.44      0.45      0.44       110
+
+
+TOTAL 20% Test 80% Train 
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.99      1.00      0.99        79
+          e       0.89      0.92      0.90        62
+          i       0.91      0.88      0.90        60
+          o       0.95      0.88      0.91        60
+          u       0.92      0.96      0.94        74
+
+avg / total       0.93      0.93      0.93       335
+
+
+TOTAL1 20% Test 80% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.85      0.92      0.88        24
+          e       0.47      0.47      0.47        15
+          i       0.62      0.69      0.66        29
+          o       0.65      0.54      0.59        28
+          u       0.65      0.65      0.65        20
+
+avg / total       0.66      0.66      0.66       116
+
+
+TOTAL2 20% Test 80% Train 
+{'C': 10, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.65      0.94      0.77        16
+          e       0.78      0.54      0.64        26
+          i       0.78      0.82      0.80        22
+          o       0.52      0.61      0.56        23
+          u       0.42      0.35      0.38        23
+
+avg / total       0.63      0.63      0.62       110
+
+
+TOTAL3 20% Test 80% Train 
+{'C': 100, 'gamma': 0.0001, 'kernel': 'rbf'}
+             precision    recall  f1-score   support
+
+          a       0.74      0.89      0.81        19
+          e       0.77      0.68      0.72        25
+          i       0.73      0.88      0.80        25
+          o       0.47      0.32      0.38        22
+          u       0.45      0.47      0.46        19
+
+avg / total       0.64      0.65      0.64       110
+
+

@@ -1,0 +1,18 @@
+MFCCs 30% Test 70% Train 
+{'activation': 'tanh', 'batch_size': 150, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 0.1, 'solver': 'lbfgs'}
+LPCs 30% Test 70% Train 
+{'activation': 'identity', 'batch_size': 100, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 0.0001, 'solver': 'lbfgs'}
+TOTAL 30% Test 70% Train 
+{'activation': 'logistic', 'batch_size': 100, 'hidden_layer_sizes': (25, 25), 'learning_rate_init': 0.001, 'solver': 'lbfgs'}
+MFCCs 25% Test 75% Train 
+{'activation': 'logistic', 'batch_size': 150, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 1, 'solver': 'lbfgs'}
+LPCs 25% Test 75% Train 
+{'activation': 'identity', 'batch_size': 50, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 0.001, 'solver': 'lbfgs'}
+TOTAL 25% Test 75% Train 
+{'activation': 'logistic', 'batch_size': 150, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 1, 'solver': 'lbfgs'}
+MFCCs 20% Test 80% Train 
+{'activation': 'logistic', 'batch_size': 100, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 0.0001, 'solver': 'lbfgs'}
+LPCs 20% Test 80% Train 
+{'activation': 'identity', 'batch_size': 150, 'hidden_layer_sizes': (50, 50), 'learning_rate_init': 1, 'solver': 'lbfgs'}
+TOTAL 20% Test 80% Train 
+{'activation': 'tanh', 'batch_size': 150, 'hidden_layer_sizes': (25, 25), 'learning_rate_init': 0.001, 'solver': 'lbfgs'}

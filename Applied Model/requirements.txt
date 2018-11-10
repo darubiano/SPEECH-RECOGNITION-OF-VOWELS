@@ -1,0 +1,5 @@
+sklearn>=0.0
+PyAudio>=0.2.11
+python-speech-features>=0.6
+Django>=2.1.2
+image>=1.5.27
