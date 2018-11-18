@@ -2,7 +2,7 @@
 <p align="justify">
 Tesis: Automatic method for voice recognition for the classification of vowels in the colombian sign language
 
-In this repository an empirical comparison of different supervised learning algorithms for the automatic recognition of vocal sounds (a, e, i, oyu) is made to be used in favor of people with hearing disabilities, which make use of sign language Colombian. For this experiment, first a data set consisting of the pronunciation of the vowels is constructed; experiment with the characteristics obtained by LPC and MFCC; using SVM, neural networks and KNN, the results obtained with F1 score, precision, recall and conclusions are shown.
+In this repository an empirical comparison of different supervised learning algorithms for the automatic recognition of vocal sounds (a, e, i, o y u) is made to be used in favor of people with hearing disabilities, which make use of sign language Colombian. For this experiment, first a data set consisting of the pronunciation of the vowels is constructed; experiment with the characteristics obtained by LPC and MFCC; using SVM, neural networks and KNN, the results obtained with F1 score, precision, recall and conclusions are shown.
 </p>
 
 The methodological For this specific project is divided into 5 stages which will be presented below:
