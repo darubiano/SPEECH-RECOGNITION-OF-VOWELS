@@ -11,7 +11,7 @@ The methodological For this specific project is divided into 5 stages which will
 </p>
 
 <p align="center"><img src="https://goo.gl/3ZW8fC">
-  https://drive.google.com/drive/folders/1VYJSuZpsOirBqhXyjoRvLl_MvrBY0pJZ?usp=sharing
+  https://drive.google.com/drive/folders/13cFXvZnebEP7pRXf0sIjxR_6hMRlFc93?usp=sharing
 </p>
 <p align="justify"> 
 2) The extraction of characteristics, which by means of the code that as its name indicates it identifies the main or more relevant      characteristics of the data for its later classification.
